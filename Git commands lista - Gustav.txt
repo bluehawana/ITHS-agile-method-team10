@@ -1,0 +1,31 @@
+1.  git config -l
+2.  git config --global user.email "email@domain.com"
+3.  git init
+4.  git add .
+5.  git status
+6. git commit -m "your commit message here"
+7. git log
+8. git show commit-id
+9. git diff
+10. git diff --staged
+11. git rm filename
+12. git checkout filename
+13. git reset HEAD -p
+14. git revert HEAD
+15. git branch branch_name
+16. git branch
+17. git branch -d branch_name
+18. git log --graph --oneline --all
+19. git add remote https://repo_here
+20. git remote show origin
+21. git pull
+22. git fetch
+23. git merge origin/main
+24. git push -u origin branch_name
+25. git rebase branch_name_here
+26. git stash -u
+27. git rm -r -f <file name>
+28. git clean
+29. git show
+30. git submodule [--quiet] [--cached]
+
