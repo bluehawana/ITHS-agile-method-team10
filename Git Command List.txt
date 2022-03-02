@@ -1,0 +1,60 @@
+1.  git config -l
+2.  git config --global user.name "username"
+3.  git config --global user.email "email@domain.com"
+4.  git config --global credential.helper cache
+5.  git init
+6.  git add filename_here
+7.  git add .
+8.  git add fil*
+9.  git status
+10. git commit
+11. git commit -m "your commit message here"
+12. git commit -a -m"your commit message here"
+13. git log
+14. git log -p
+15. git show commit-id
+16. git log --stat
+17. git diff
+18. git diff all_checks.py
+19. git diff --staged
+20. git add -p
+21. git rm filename
+22. git mv oldfile newfile
+23. git checkout filename
+24. git reset HEAD filename
+25. git reset HEAD -p
+26. git commit --amend
+27. git revert HEAD
+28. git revert comit_id_here
+29. git branch branch_name
+30. git checkout branch_name
+31. git branch
+32. git checkout -b branch_name
+33. git branch -d branch_name
+34. git merge branch_name
+35. git log --graph --oneline --all
+36. git merge --abort
+37. git add remote https://repo_here
+38. git remote -v
+39. git remote show origin
+40. git push
+41. git pull
+42. git branch -r
+43. git fetch
+44. git log origin/main
+45. git merge origin/main
+46. git remote update
+47. git push -u origin branch_name
+48. git push --delete origin branch_name_here
+49. git rebase branch_name_here
+50. git push -f
+51. git stash -u
+52. git stash pop
+53. git rm -r -f <file name>
+54. git rm --cached <file name>
+55. git clean
+56. git restore
+57. git show
+58. git tag
+59. git submodule [--quiet] [--cached]
+60. git worktree list
